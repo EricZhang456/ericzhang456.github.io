@@ -1,3 +1,5 @@
+Sitemap: https://ericzhang456.github.io/sitemap.txt
+
 User-agent: Baiduspider
 Disallow: /
 # HAHA
