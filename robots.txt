@@ -1,5 +1,8 @@
 User-agent: Baiduspider
 Disallow: /
+# HAHA
 
 User-agent: *
 Disallow: /thanks.html
+Disallow: /old/
+Disallow: /fp98/
