@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>My Blog</title>
+    <link>https://ericzhang456.github.io/Erics_Site/Blog/Blog.html</link>
+    <description>Here’s my blog!&lt;br/&gt;Don’t visit this page with Internet Explorer or it will have issues loading ActiveX plugin.</description>
+    <generator>iWeb 3.0.4</generator>
+    <image>
+      <url>https://ericzhang456.github.io/Erics_Site/Blog/Blog_files/img26-filtered.jpg</url>
+      <title>My Blog</title>
+      <link>https://ericzhang456.github.io/Erics_Site/Blog/Blog.html</link>
+    </image>
+    <item>
+      <title>Hi</title>
+      <link>https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi.html</link>
+      <guid isPermaLink="false">0e9a2c12-6084-49f0-b92a-518880419cf2</guid>
+      <pubDate>Sun, 11 Aug 2019 17:35:39 +0800</pubDate>
+      <description>&lt;a href=&quot;https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi_files/img14-filtered.jpg&quot;&gt;&lt;img src=&quot;https://ericzhang456.github.io/Erics_Site/Blog/Media/object020_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:216px; height:123px;&quot;/&gt;&lt;/a&gt;Here you go! It is here!</description>
+      <enclosure url="https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi_files/img14-filtered.jpg" length="155871" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
