@@ -29,7 +29,8 @@ _vti_cnf/
 .history
 
 # iWeb junk, caused by EricAfterEric
-*.plist
+# *.plist
+# No, I use iWeb myself
 
 # -----------------------
 
