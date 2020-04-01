@@ -1,4 +1,4 @@
-// Created by iWeb 3.0.4 local-build-20200331
+// Created by iWeb 3.0.4 local-build-20200401
 
 function writeMovie1()
 {detectBrowser();if(windowsInternetExplorer)
@@ -16,15 +16,15 @@ else
 {document.write('<object id="id3" type="video/quicktime" width="300" height="16" data="Media/All%20Star.mp3" style="height: 16px; left: 370px; position: absolute; top: 456px; width: 300px; z-index: 1; "><param name="src" value="Media/All%20Star.mp3"/><param name="controller" value="true"/><param name="autoplay" value="false"/><param name="scale" value="tofit"/><param name="volume" value="100"/><param name="loop" value="false"/></object>');}}
 function writeMovie3()
 {detectBrowser();if(windowsInternetExplorer)
-{document.write('<object id="id4" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="300" height="212" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov" /><param name="controller" value="true" /><param name="autoplay" value="false" /><param name="scale" value="tofit" /><param name="volume" value="100" /><param name="loop" value="false" /></object>');}
+{document.write('<object id="id5" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="300" height="212" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov" /><param name="controller" value="true" /><param name="autoplay" value="false" /><param name="scale" value="tofit" /><param name="volume" value="100" /><param name="loop" value="false" /></object>');}
 else if(isiPhone)
-{document.write('<object id="id4" type="video/quicktime" width="300" height="212" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media_files/%202020-03-04%209.34.59.jpg"/><param name="target" value="myself"/><param name="href" value="../Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov"/><param name="controller" value="true"/><param name="scale" value="tofit"/></object>');}
+{document.write('<object id="id5" type="video/quicktime" width="300" height="212" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media_files/%202020-03-04%209.34.59.jpg"/><param name="target" value="myself"/><param name="href" value="../Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov"/><param name="controller" value="true"/><param name="scale" value="tofit"/></object>');}
 else
-{document.write('<object id="id4" type="video/quicktime" width="300" height="212" data="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov"/><param name="controller" value="true"/><param name="autoplay" value="false"/><param name="scale" value="tofit"/><param name="volume" value="100"/><param name="loop" value="false"/></object>');}}
+{document.write('<object id="id5" type="video/quicktime" width="300" height="212" data="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov" style="height: 212px; left: 45px; position: absolute; top: -106px; width: 300px; z-index: 1; "><param name="src" value="Media/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202020-03-04%20%E4%B8%8A%E5%8D%889.34.59.mov"/><param name="controller" value="true"/><param name="autoplay" value="false"/><param name="scale" value="tofit"/><param name="volume" value="100"/><param name="loop" value="false"/></object>');}}
 setTransparentGifURL('Media/transparent.gif');function hostedOnDM()
 {return false;}
 function onPageLoad()
 {loadMozillaCSS('Media_files/MediaMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');Widget.onload();fixAllIEPNGs('Media/transparent.gif');performPostEffectsFixups()}
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');Widget.onload();fixupAllIEPNGBGs();fixAllIEPNGs('Media/transparent.gif');performPostEffectsFixups()}
 function onPageUnload()
 {Widget.onunload();}
