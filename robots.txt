@@ -1,0 +1,12 @@
+Sitemap: https://ericzhang456.github.io/sitemap.txt
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Adsbot-Google
+Disallow: /
+# HAHA
+
+User-agent: *
+Disallow: /old/
+Disallow: /fp98/
