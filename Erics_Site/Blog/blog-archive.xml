@@ -4,7 +4,14 @@
     <title>Blog</title>
     <link>https://ericzhang456.github.io/Erics_Site/Blog</link>
     <description>Here&#x2019;s my blog!
-Don&#x2019;t visit this page with Internet Explorer or it will have issues loading ActiveX plugin.</description>
+Click the RSS button to subscribe for more quality content.</description>
+    <item>
+      <title>Crappa</title>
+      <link>https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2020/4/1_Crappa.html</link>
+      <guid isPermaLink="false">7e7353fb-6479-46ff-aeb9-f059a76994b1</guid>
+      <pubDate>Wed, 1 Apr 2020 17:18:24 +0800</pubDate>
+      <iweb:comment enabled="0" count="0" link="https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2020/4/1_Crappa.html#comment_layer"></iweb:comment>
+    </item>
     <item>
       <title>Hi</title>
       <link>https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi.html</link>
@@ -12,7 +19,7 @@ Don&#x2019;t visit this page with Internet Explorer or it will have issues loadi
       <pubDate>Sun, 11 Aug 2019 17:35:39 +0800</pubDate>
       <iweb:comment enabled="0" count="0" link="https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi.html#comment_layer"></iweb:comment>
     </item>
-    <iweb:dateFormat>y&#x5E74;M&#x6708;d&#x65E5; EEEE</iweb:dateFormat>
+    <iweb:dateFormat>y/M/d</iweb:dateFormat>
     <iweb:baseURL>https://ericzhang456.github.io/Erics_Site/Blog</iweb:baseURL>
     <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
   </channel>

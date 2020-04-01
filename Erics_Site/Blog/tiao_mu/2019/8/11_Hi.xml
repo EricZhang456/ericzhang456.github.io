@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <content collectionGUID="2438BC64-B7B8-4760-ABFD-4B755AD5A6E0">
-  <lastEdited clientType="local-build-20200331" date="2020-03-31 03:12:32 +0000"/>
+  <lastEdited clientType="local-build-20200401" date="2020-04-01 09:25:47 +0000"/>
   <textBox id="generic-title-attributes" dynamic="no" visible="yes">
     <richText>&lt;b&gt;Hi&lt;/b&gt;</richText>
   </textBox>
   <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
-    <richText>&lt;b&gt;2019&#x5E74;8&#x6708;11&#x65E5; &#x661F;&#x671F;&#x65E5;&lt;/b&gt;</richText>
+    <richText>&lt;b&gt;2019/8/11&lt;/b&gt;</richText>
   </textBox>
   <textBox id="generic-body-attributes" dynamic="no" visible="yes">
     <richText>&lt;b&gt;Here you go! It is here!&lt;/b&gt;</richText>

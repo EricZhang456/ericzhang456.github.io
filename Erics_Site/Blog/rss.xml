@@ -3,13 +3,21 @@
   <channel>
     <title>My Blog</title>
     <link>https://ericzhang456.github.io/Erics_Site/Blog/Blog.html</link>
-    <description>Here’s my blog!&lt;br/&gt;Don’t visit this page with Internet Explorer or it will have issues loading ActiveX plugin.</description>
+    <description>Here’s my blog!&lt;br/&gt;Click the RSS button to subscribe for more quality content.</description>
     <generator>iWeb 3.0.4</generator>
     <image>
       <url>https://ericzhang456.github.io/Erics_Site/Blog/Blog_files/img26-filtered.jpg</url>
       <title>My Blog</title>
       <link>https://ericzhang456.github.io/Erics_Site/Blog/Blog.html</link>
     </image>
+    <item>
+      <title>Crappa</title>
+      <link>https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2020/4/1_Crappa.html</link>
+      <guid isPermaLink="false">7e7353fb-6479-46ff-aeb9-f059a76994b1</guid>
+      <pubDate>Wed, 1 Apr 2020 17:18:24 +0800</pubDate>
+      <description>&lt;a href=&quot;https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2020/4/1_Crappa_files/shapeimage_2.jpg&quot;&gt;&lt;img src=&quot;https://ericzhang456.github.io/Erics_Site/Blog/Media/object001_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:216px; height:123px;&quot;/&gt;&lt;/a&gt;Crappa is here.</description>
+      <enclosure url="https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2020/4/1_Crappa_files/shapeimage_2.jpg" length="10323" type="image/jpeg"/>
+    </item>
     <item>
       <title>Hi</title>
       <link>https://ericzhang456.github.io/Erics_Site/Blog/tiao_mu/2019/8/11_Hi.html</link>

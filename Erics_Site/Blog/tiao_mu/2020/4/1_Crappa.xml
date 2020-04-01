@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="2438BC64-B7B8-4760-ABFD-4B755AD5A6E0">
+  <lastEdited clientType="local-build-20200401" date="2020-04-01 09:25:47 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Crappa&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;2020/4/1&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Crappa is here.&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="1_Crappa_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>
