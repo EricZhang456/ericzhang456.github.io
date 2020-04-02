@@ -1,9 +1,104 @@
 .style {
     padding: 4px;
 }
-.style_SkipStroke_2 {
-    background: transparent;
+.paragraph_style {
+    color: rgb(169, 169, 169);
+    font-family: 'HelveticaNeue-Italic', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
     opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_1 {
+    color: rgb(169, 169, 169);
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue';
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.paragraph_style_2 {
+    color: rgb(169, 169, 169);
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 27px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_1 {
+    font-family: 'HelveticaNeue-MediumItalic', 'Helvetica Neue';
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+}
+.paragraph_style_3 {
+    color: rgb(169, 169, 169);
+    font-family: 'HelveticaNeue-Medium', 'Helvetica Neue';
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 27px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.style_External_620_753 {
+    position: relative;
 }
 .style_SkipStroke {
     background: transparent;
@@ -13,14 +108,23 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_2 {
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+.style_SkipStroke_2 {
+    background: transparent;
+    opacity: 1.00;
+}
 .style_SkipStroke_3 {
     background: transparent;
     opacity: 1.00;
 }
 .style_External_620_41 {
-    position: relative;
-}
-.style_External_620_129 {
     position: relative;
 }
 .Body {
@@ -100,7 +204,7 @@
 .Normal_External_620_41 {
     position: relative;
 }
-.Normal_External_620_129 {
+.Normal_External_620_753 {
     position: relative;
 }
 .Previous {
@@ -181,15 +285,15 @@ a:hover {
     color: rgb(255, 38, 0);
     text-decoration: underline;
 }
-.bumper {
-    font-size: 1px;
-    line-height: 1px;
-}
-.tinyText {
-    font-size: 1px;
-    line-height: 1px;
+#widget1 a {
+    color: rgb(169, 169, 169);
+    text-decoration: underline;
 }
 #widget0 a:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: underline;
+}
+#widget1 a:hover {
     color: rgb(255, 38, 0);
     text-decoration: underline;
 }
@@ -201,7 +305,19 @@ a:hover {
     color: rgb(169, 169, 169);
     text-decoration: underline;
 }
+#widget1 a:visited {
+    color: rgb(121, 121, 121);
+    text-decoration: underline;
+}
 .spacer {
+    font-size: 1px;
+    line-height: 1px;
+}
+.tinyText {
+    font-size: 1px;
+    line-height: 1px;
+}
+.bumper {
     font-size: 1px;
     line-height: 1px;
 }
