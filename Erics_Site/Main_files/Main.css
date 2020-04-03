@@ -20,10 +20,6 @@
     text-indent: 0px;
     text-transform: none;
 }
-.style_SkipStroke_2 {
-    background: transparent;
-    opacity: 1.00;
-}
 .style_SkipStroke {
     background: transparent;
     opacity: 1.00;
@@ -54,11 +50,11 @@
     text-indent: 0px;
     text-transform: none;
 }
-.Normal {
-    padding: 4px;
-}
 .Normal_External_620_132 {
     position: relative;
+}
+.Normal {
+    padding: 4px;
 }
 .Title {
     color: rgb(255, 255, 255);
@@ -90,10 +86,6 @@
     background: transparent;
     opacity: 1.00;
 }
-.graphic_image_style_default_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
-}
 .graphic_shape_layout_style_default {
     padding: 4px;
 }
@@ -112,15 +104,15 @@ a:hover {
     color: rgb(255, 38, 0);
     text-decoration: underline;
 }
-.bumper {
-    font-size: 1px;
-    line-height: 1px;
-}
-.tinyText {
-    font-size: 1px;
-    line-height: 1px;
+#widget1 a {
+    color: rgb(169, 169, 169);
+    text-decoration: underline;
 }
 #widget0 a:hover {
+    color: rgb(255, 38, 0);
+    text-decoration: underline;
+}
+#widget1 a:hover {
     color: rgb(255, 38, 0);
     text-decoration: underline;
 }
@@ -132,7 +124,19 @@ a:hover {
     color: rgb(169, 169, 169);
     text-decoration: underline;
 }
+#widget1 a:visited {
+    color: rgb(121, 121, 121);
+    text-decoration: underline;
+}
 .spacer {
+    font-size: 1px;
+    line-height: 1px;
+}
+.tinyText {
+    font-size: 1px;
+    line-height: 1px;
+}
+.bumper {
     font-size: 1px;
     line-height: 1px;
 }
