@@ -35,7 +35,7 @@ plugins:
 # Texture Theme Config
 texture:
   title: Eric's Page
-  tagline: eric, blog, opinion, 2003page
+  tagline: Welcome!
   date_format: "%Y %b %-d"
   style: blue
   analytics_id: 'UA-97021912-1'
