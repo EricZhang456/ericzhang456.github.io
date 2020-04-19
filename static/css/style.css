@@ -72,7 +72,7 @@ layout: null
     font-size: 18px;
     text-align: center;
     background: rgba(255,255,255,0.1);
-    border-radius: 3px 3px;
+    border-radius: 3px;
     -webkit-transition: background .4s ease-in-out;
     -moz-transition: background .4s ease-in-out;
     -ms-transition: background .4s ease-in-out;
@@ -99,14 +99,14 @@ layout: null
 
 html{
     height: 100%;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0;
+    margin: 0;
 }
 body {
     background-image: url({{ "/static/bg.jpg" | prepend: site.baseurl | prepend: site.url }});
     height: 100%;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body,code,pre{
@@ -130,8 +130,8 @@ a:active {text-decoration: none}	/* 选定的链接 */
 }
 
 .content{
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .sheet{
@@ -201,7 +201,7 @@ a:active {text-decoration: none}	/* 选定的链接 */
 }
 
 .rectangle{
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 
