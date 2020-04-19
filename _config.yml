@@ -56,7 +56,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ericzhang456.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ericxiang456
-github_username:  ericzhang456
+github:
+  username: ericzhang456
+# swiftype:
+#   searchId: 
+gitment:
+  repo: ericzhang456.github.io
+  client_id: 3fb2a45b1da16cadb27d
+  client_secret: 12d62716dda3ce7e9686b37a8c04cd30f7805a4d
 
 imgrepo: "https://ericzhang456.github.io/static/img"
 
