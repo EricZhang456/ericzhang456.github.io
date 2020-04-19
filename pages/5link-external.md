@@ -6,4 +6,4 @@ icon: octicon-link-external
 
 ---
 
-### [github](https://github.com/bit-ranger/blog)
+### [使用的主题](https://github.com/bit-ranger/blog)
