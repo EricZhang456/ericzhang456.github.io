@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Link
+title: Extra
 permalink: /link/
 icon: octicon-link-external
 
