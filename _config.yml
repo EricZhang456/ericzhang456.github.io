@@ -28,17 +28,12 @@ twitter_username: ericxiang456
 github_username:  ericzhang456
 
 # Build settings
-remote_theme: thelehhman/texture
+remote_theme:  bit-ranger/blog 
 plugins:
   - jekyll-feed
 
-# Texture Theme Config
-texture:
-  title: Eric's Page
-  tagline: Welcome!
-  date_format: "%Y %b %-d"
-  style: blue
-  analytics_id: 'UA-97021912-1'
+# Google Analytics
+google_analytics: UA-97021912-1 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
