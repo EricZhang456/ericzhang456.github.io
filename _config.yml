@@ -24,8 +24,8 @@
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
 
+plugins: [jekyll-paginate]
 
 permalink: /:categories/:title/
 
