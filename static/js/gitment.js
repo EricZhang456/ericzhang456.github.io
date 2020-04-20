@@ -3337,7 +3337,7 @@ var Gitment =
             }, {
                 key: 'loginLink',
                 get: function get() {
-                    var oauthUri = 'https://cors.wenjunjiang.win';
+                    var oauthUri = 'https://github.com/login/oauth/access_token';
                     var redirect_uri = this.oauth.redirect_uri || window.location.href;
 
                     var oauthParams = Object.assign({
