@@ -938,7 +938,7 @@ var ComputedValue = function () {
         this.isComputing = false;
         return res;
     };
-    ;
+    
     ComputedValue.prototype.observe = function (listener, fireImmediately) {
         var _this = this;
         var firstTime = true;
@@ -968,7 +968,7 @@ var ComputedValue = function () {
     ComputedValue.prototype.valueOf = function () {
         return toPrimitive(this.get());
     };
-    ;
+    
     ComputedValue.prototype.whyRun = function () {
         var isTracking = Boolean(globalState.trackingDerivation);
         var observing = unique(this.isComputing ? this.newObserving : this.observing).map(function (dep) {
