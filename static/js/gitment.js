@@ -183,25 +183,34 @@ var Gitment =
                 invariant(typeof actionName === "string" && actionName.length > 0, "actions should have valid names, got: '" + actionName + "'");
                 return executeAction(actionName, fn, scope, undefined);
             }
-        }
-        globalState.computationDepth--;
-        this.isComputing = false;
-        return res;
-    };
-    
-    ComputedValue.prototype.observe = function (listener, fireImmediately) {
-        var _this = this;
-        var firstTime = true;
-        var prevValue = undefined;
-        return autorun(function () {
-            var newValue = _this.get();
-            if (!firstTime || fireImmediately) {
-                var prevU = untrackedStart();
-                listener({
-                    type: "update",
-                    object: _this,
-                    newValue: newValue,
-                    oldValue: prevValue
+            exports.runInAction = runInAction;
+            function isAction(thing) {
+                return typeof thing === "function" && thing.isMobxAction === true;
+            }
+            exports.isAction = isAction;
+            function defineBoundAction(target, propertyName, fn) {
+                var res = function res() {
+                    return executeAction(propertyName, fn, target, arguments);
+                };
+                res.isMobxAction = true;
+                addHiddenProp(target, propertyName, res);
+            }
+            function autorun(arg1, arg2, arg3) {
+                var name, view, scope;
+                if (typeof arg1 === "string") {
+                    name = arg1;
+                    view = arg2;
+                    scope = arg3;
+                } else {
+                    name = arg1.name || "Autorun@" + getNextId();
+                    view = arg1;
+                    scope = arg2;
+                }
+                invariant(typeof view === "function", getMessage("m004"));
+                invariant(isAction(view) === false, getMessage("m005"));
+                if (scope) view = view.bind(scope);
+                var reaction = new Reaction(name, function () {
+                    this.track(reactionRunner);
                 });
                 function reactionRunner() {
                     view(reaction);
@@ -209,7 +218,6 @@ var Gitment =
                 reaction.schedule();
                 return reaction.getDisposer();
             }
-<<<<<<< HEAD
             exports.autorun = autorun;
             function when(arg1, arg2, arg3, arg4) {
                 var name, predicate, effect, scope;
@@ -894,68 +902,6 @@ var Gitment =
                     if (this.setter) {
                         invariant(!this.isRunningSetter, "The setter of computed value '" + this.name + "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?");
                         this.isRunningSetter = true;
-=======
-            firstTime = false;
-            prevValue = newValue;
-        });
-    };
-    ComputedValue.prototype.toJSON = function () {
-        return this.get();
-    };
-    ComputedValue.prototype.toString = function () {
-        return this.name + "[" + this.derivation.toString() + "]";
-    };
-    ComputedValue.prototype.valueOf = function () {
-        return toPrimitive(this.get());
-    };
-    
-    ComputedValue.prototype.whyRun = function () {
-        var isTracking = Boolean(globalState.trackingDerivation);
-        var observing = unique(this.isComputing ? this.newObserving : this.observing).map(function (dep) {
-            return dep.name;
-        });
-        var observers = unique(getObservers(this).map(function (dep) {
-            return dep.name;
-        }));
-        return "\nWhyRun? computation '" + this.name + "':\n * Running because: " + (isTracking ? "[active] the value of this computation is needed by a reaction" : this.isComputing ? "[get] The value of this computed was requested outside a reaction" : "[idle] not running at the moment") + "\n" + (this.dependenciesState === IDerivationState.NOT_TRACKING ? getMessage("m032") : " * This computation will re-run if any of the following observables changes:\n    " + joinStrings(observing) + "\n    " + (this.isComputing && isTracking ? " (... or any observable accessed during the remainder of the current run)" : "") + "\n\t" + getMessage("m038") + "\n\n  * If the outcome of this computation changes, the following observers will be re-run:\n    " + joinStrings(observers) + "\n");
-    };
-    return ComputedValue;
-}();
-ComputedValue.prototype[primitiveSymbol()] = ComputedValue.prototype.valueOf;
-var isComputedValue = createInstanceofPredicate("ComputedValue", ComputedValue);
-var IDerivationState;
-(function (IDerivationState) {
-    IDerivationState[IDerivationState["NOT_TRACKING"] = -1] = "NOT_TRACKING";
-    IDerivationState[IDerivationState["UP_TO_DATE"] = 0] = "UP_TO_DATE";
-    IDerivationState[IDerivationState["POSSIBLY_STALE"] = 1] = "POSSIBLY_STALE";
-    IDerivationState[IDerivationState["STALE"] = 2] = "STALE";
-})(IDerivationState || (IDerivationState = {}));
-exports.IDerivationState = IDerivationState;
-var CaughtException = function () {
-    function CaughtException(cause) {
-        this.cause = cause;
-    }
-    return CaughtException;
-}();
-function isCaughtException(e) {
-    return e instanceof CaughtException;
-}
-function shouldCompute(derivation) {
-    switch (derivation.dependenciesState) {
-        case IDerivationState.UP_TO_DATE:
-            return false;
-        case IDerivationState.NOT_TRACKING:
-        case IDerivationState.STALE:
-            return true;
-        case IDerivationState.POSSIBLY_STALE:
-            {
-                var prevUntracked = untrackedStart();
-                var obs = derivation.observing,
-                    l = obs.length;
-                for (var i = 0; i < l; i++) {
-                    var obj = obs[i];
-                    if (isComputedValue(obj)) {
->>>>>>> master-cf-autofix
                         try {
                             this.setter.call(this.scope, value);
                         } finally {
@@ -3391,7 +3337,7 @@ function shouldCompute(derivation) {
             }, {
                 key: 'loginLink',
                 get: function get() {
-                    var oauthUri = 'https://cors.wenjunjiang.win/?remoteUrl=https://github.com/login/oauth/access_token';
+                    var oauthUri = 'https://github.com/login/oauth/authorize';
                     var redirect_uri = this.oauth.redirect_uri || window.location.href;
 
                     var oauthParams = Object.assign({
