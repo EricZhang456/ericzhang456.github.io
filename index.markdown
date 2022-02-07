@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# Under Construction
+
+This website is written from scratch with Jekyll. In the meantime, check out my [old WordPress blog](https://ericafterericplus.wordpress.com/).
