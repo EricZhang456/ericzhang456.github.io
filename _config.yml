@@ -20,7 +20,7 @@ title                    : "EricZhang456's home page"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Eric Zhang"
-description              : "A website ran by a \"Linux zoomer\""
+description              : "A blog ran by a self-described Linux zoomer."
 url                      : "https://ericaftereric.top" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "EricZhang456/ericzhang456.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
