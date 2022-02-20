@@ -53,9 +53,9 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                : "6LeveI4eAAAAACzpl8SrWMXwCSkdyOK8JmcrlmvI"
-  secret                 : "6LeveI4eAAAAAD_PS39Fd71hMJzw9i5MCLuKTnUo"
+#reCaptcha:
+#  siteKey                : "6LeveI4eAAAAACzpl8SrWMXwCSkdyOK8JmcrlmvI"
+#  secret                 : "6LeveI4eAAAAAD_PS39Fd71hMJzw9i5MCLuKTnUo"
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
@@ -96,7 +96,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-J0H3B1PD5P"
+    tracking_id          : "UA-97021912-4"
     anonymize_ip         : # true, false (default)
 
 
