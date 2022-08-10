@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="99D87D98-779F-4C21-A7C5-F6FBDD81A5A9">
+  <lastEdited clientType="local-build-20220810" date="2022-08-10 04:23:08 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>My Blog</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Eliquatuero dip etiros numsan vent lam, conum zzrit la iam iure nonsen dre exeril ad te facip eugait lametue dolesed et dolor aut sevelit ver adionse magnisc tatmmy niam dolorti teed dolor estrud dunt do conulla mconse utin ming, quat velenit duipsusci et landrem zzriuscinim nullaorem. Duis nonsequ ismodol oreetuer iril et dolore facidunt, vullup tat volore consecte quatet blan henim exer aute enit alit, veliqua. &#xD;Uptat prat lut apolut iriliquat, quis alisl irilitam irillum augue zzrit, verosto et consequ ismodit iriuscin ello dionsequi doleniam zzriure consed del dolortie ex eraesto la at augait praesto od tat dunt lum ametue. Uptat prat lutpat lut iriliquat, quis alisl irilit am irillum at niam zzrit, verosto consequ ismodit iriuscin el dolorero dionsequi tie veliqui exerit inis eae feugue feum irilisit lam doleniam zzriure consed del dolortie dolortio craesto odoluptat la at augait praesto od tat dunt lum ametue doluptat. Ut praestrud min el digniat voluptat lore et, veniscilla comy nim ad magna commodo lessi.</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Jane &amp; Jenny&#x2019;s Birthday Trip</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_Jane_%26_Jennys_Birthday_Trip_files/shapeimage_1.png" left="0px" top="0px" width="300px" height="225px"/>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>2022&#x5E74;8&#x6708;10&#x65E5; &#x661F;&#x671F;&#x4E09;</richText>
+  </textBox>
+</content>

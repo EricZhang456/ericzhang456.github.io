@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Blog</title>
+    <link>https://ericzhang456.github.io/iweb/EricZhang456s_iWeb_Site/Blog</link>
+    <description>Duis nonsequ ismodol oreetuer iril etin dolore facidunt, vullup tat volore consecte dolesed ar se veliter iure te. Eliquatuero dip etiros numsan vent lam, conum zzrit la iam iure nonsen dre exeril ad te facip eugait lametue consecte dolesed et dolor sevelit ver adionse magnisc do conulla mconse ming ex ent am, quat velenit exerci tate duipsusci et landrem zzriuscinim.</description>
+    <item>
+      <title>Jane &amp; Jenny&#x2019;s Birthday Trip</title>
+      <link>https://ericzhang456.github.io/iweb/EricZhang456s_iWeb_Site/Blog/tiao_mu/2022/8/10_Jane_%26_Jennys_Birthday_Trip.html</link>
+      <guid isPermaLink="false">14205cd0-bb5c-42ac-b9e6-c40fb6270c42</guid>
+      <pubDate>Wed, 10 Aug 2022 12:22:35 +0800</pubDate>
+      <iweb:comment enabled="0" count="0" link="https://ericzhang456.github.io/iweb/EricZhang456s_iWeb_Site/Blog/tiao_mu/2022/8/10_Jane_%26_Jennys_Birthday_Trip.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>y&#x5E74;M&#x6708;d&#x65E5; EEEE</iweb:dateFormat>
+    <iweb:baseURL>https://ericzhang456.github.io/iweb/EricZhang456s_iWeb_Site/Blog</iweb:baseURL>
+    <iweb:maximumSummaryItems>10</iweb:maximumSummaryItems>
+  </channel>
+</rss>
